@@ -1,0 +1,87 @@
+html {    
+    background: url('../websitebackgrounds/background\ Home.jpg') no-repeat center fixed;     
+    background-size: cover;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  align-items: center;
+  /* remove justify-content here */
+  }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navbar img {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+  
+  /* Navbar links */
+  .navbar a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px;
+    display: inline-block;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #660066;
+    border-radius: 1.5em;
+    padding: 30px;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: flex;
+    }
+  }
+
+  .home_text {
+    font-size: 97px;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.home_desc {
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.joinnow {
+  border-radius: 1.5em;
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+  display: inline-block;
+}
+.joinnow a {
+  text-decoration: none;
+}
+
+
+/* Footer */
