@@ -26,6 +26,9 @@ nav {
   justify-content: space-between;
 }
 
+nav i {
+  margin-right: 5px;
+}
 
 nav img {
     width: auto;
