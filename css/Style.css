@@ -5,12 +5,17 @@
 html {    
     background: url('../websitebackgrounds/background\ Home.jpg') no-repeat center fixed;     
     background-size: cover;
+    height: 100%;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 header {
@@ -26,7 +31,7 @@ nav {
 }
 
 
-.navbar img {
+nav img {
     width: auto;
     height: 100px;
     display: flex;
@@ -36,25 +41,26 @@ nav {
 }
   
   /* Navbar links */
-  .navbar a {
+  nav a {
+    transition: .5s;
     padding: 20px;
     color: white;
     text-decoration: none;
     font-size: 20px;
-    margin: 15px;
     display: inline-block;
+    text-align: center;
   }
   
   /* Navbar links on mouse-over */
-  .navbar a:hover {
+  nav a:hover {
     background-color: #000;
   }
   
   /* Current/active navbar link */
   .active {
     background-color: #660066;
-    border-radius: 1.5em;
-    padding: 30px;
+    border-radius: 50px;
+    padding: 1rem;
   }
   
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
@@ -71,23 +77,29 @@ nav {
     margin: 20px;
     padding: 20px;
 }
-
-.home_desc {
+.home_text span {
+  display: block;
+}
+b {
+  display: block;
+}
+i {
     font-size: 40px;
     color: white;
-    padding: 10px;
-    margin: 10px;
+
 }
 
 .joinnow {
-  border-radius: 1.5em;
-  background-color: white;
+  border: white 5px solid;
+  color: white;
+  background-color: transparent;
   padding: 1em;
-  margin: 1em;
-  display: inline-block;
+  margin: 1rem 1rem 1rem 0;
+  display: block;
 }
 .joinnow a {
   text-decoration: none;
+  color: white;
 }
 
 
