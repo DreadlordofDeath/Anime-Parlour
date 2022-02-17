@@ -25,6 +25,16 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+nav #logo {
+  padding: .3rem;
+  transition: .5s ease-in;
+  
+  
+} 
+nav #logo:hover{
+background-color: transparent;
+transform: scale(1.5) rotate(360deg);
+}
 
 nav i {
   margin-right: 5px;
@@ -42,7 +52,9 @@ nav img {
   /* Navbar links */
   nav a {
     transition: .5s;
-    padding: 20px;
+    border-radius: 20%;
+    padding: 10px;
+    margin: 20px;
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -54,12 +66,24 @@ nav img {
   nav a:hover {
     background-color: #000;
   }
+  nav div {
+    display: flex;
+    align-items: center;
+  }
   
   /* Current/active navbar link */
   .active {
-    background-color: #660066;
+    background-color: rgb(102, 0, 102);
     border-radius: 50px;
     padding: 1rem;
+
+  }
+  .active p {
+    display: inline;
+    margin-left: 10px;
+  }
+  nav p {
+    margin-top: 5px;
   }
   
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
@@ -195,14 +219,27 @@ font-weight: bold;
 i {
   font-style: italic;
 }
+h1.nice {
+  color: white;
+  margin: 0 10px;
+  font-weight: bolder;
+}
 
 h1.nice:after, h2.nice:after {
   content: "";
   height: 2px;
   flex: 1 1 auto;
   opacity: .6;
-  margin-left: 10px;
+  margin: 3% 10px;
+
 }
 h1.nice:after {
-  background-color: #7289da;
+  background-color:  rgba(255,255,255,.5);
+}
+.nice:last-child{
+  margin-bottom: 3%;
+}
+
+#staff {
+  margin-top: 5%;
 }
