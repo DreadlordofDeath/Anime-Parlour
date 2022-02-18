@@ -1,30 +1,17 @@
 html {
-  background: url("../websitebackgrounds/backgroundHome.jpg") no-repeat center fixed;
-  background-size: cover;
   height: 100%;
 }
 
 body {
+  background: url("../websitebackgrounds/backgroundHome.jpg") no-repeat center fixed;
+  background-size: cover;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   height: 100%;
 }
 
 header {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   /* remove justify-content here */
 }
 
@@ -81,11 +68,13 @@ nav a {
   font-size: 20px;
   display: inline-block;
   text-align: center;
+  font-weight: bold;
 }
 
 /* Navbar links on mouse-over */
 nav a:hover {
-  background-color: #000;
+  background-color: white;
+  color: magenta;
 }
 
 nav div {
@@ -325,5 +314,86 @@ h1.nice:after {
 
 #staff {
   margin-top: 5%;
+}
+
+#serverFeatures {
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+  background: url("../websitebackgrounds/1049330.jpg") no-repeat center fixed;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+      grid-template-areas: "community active server" "events support server";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#serverFeatures div {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  font-size: 1.875rem;
+}
+
+#serverFeatures div h1 {
+  font-size: 3.125rem;
+}
+
+#serverFeatures #active {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: active;
+  color: #76FEBA;
+}
+
+#serverFeatures #active h1 {
+  color: #67FFA9;
+}
+
+#serverFeatures #support {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: support;
+  color: #DDA8E1;
+}
+
+#serverFeatures #support h1 {
+  color: #DA71FF;
+}
+
+#serverFeatures #community {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: community;
+  color: #E3E5B2;
+}
+
+#serverFeatures #community h1 {
+  color: #FFFB8D;
+}
+
+#serverFeatures #events {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: events;
+  color: #FFCCCC;
+}
+
+#serverFeatures #events h1 {
+  color: #FF8484;
+}
+
+#serverFeatures h1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  grid-area: server;
+  color: white;
+  font-size: 5.25rem;
 }
 /*# sourceMappingURL=style.css.map */

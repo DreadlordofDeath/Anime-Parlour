@@ -2,27 +2,26 @@ $purple: rgb(102, 0, 102);
 $footerBg: #15191a;
 
 html {
-    background: url("../websitebackgrounds/backgroundHome.jpg") no-repeat center fixed;
-    background-size: cover;
     height: 100%;
 }
 
 body {
+    background: url("../websitebackgrounds/backgroundHome.jpg") no-repeat center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
     height: 100%;
 }
 
 header {
-    align-items: center;
+  
     /* remove justify-content here */
 }
 
 nav {
+ 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,11 +59,13 @@ nav a {
     font-size: 20px;
     display: inline-block;
     text-align: center;
+    font-weight: bold;
 }
 
 /* Navbar links on mouse-over */
 nav a:hover {
-    background-color: #000;
+    background-color: rgba($color: #fff, $alpha: 1);
+    color: magenta;
 }
 nav div {
     display: flex;
@@ -258,4 +259,58 @@ h1.nice:after {
 
 #staff {
     margin-top: 5%;
+}
+#serverFeatures {
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+    background: url("../websitebackgrounds/1049330.jpg") no-repeat center fixed;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "community active server" "events support server";
+    align-items: center;
+
+    div {
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        h1 {
+            font-size: 3.125rem;
+        }
+        font-size: 1.875rem;
+    }
+    #active {
+        grid-area: active ;
+        h1 {
+            color: #67FFA9;
+        }
+        color: #76FEBA;
+    }
+    #support {
+        grid-area:support ;
+        h1 {
+            color: #DA71FF
+        }
+        color: #DDA8E1
+    }
+    #community{
+        grid-area:community ;
+        h1 {
+            color: #FFFB8D;
+        }
+        color: #E3E5B2;
+    }
+    #events {
+        grid-area: events;
+        h1 {
+            color:  #FF8484;
+        }
+        color: #FFCCCC;
+    }
+    h1 {
+        grid-area: server;
+        color: white;
+        font-size: 5.25rem;
+    }
 }
