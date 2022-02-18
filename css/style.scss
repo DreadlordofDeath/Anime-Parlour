@@ -278,17 +278,22 @@ h1.nice:after {
         width: 100%;
         height: 100%;
         padding: 1rem;
+
         h1 {
             font-size: 3.125rem;
         }
-        font-size: 1.875rem;
+        font-size: 1.875rem;   
     }
     #active {
+        
+       
         grid-area: active ;
         h1 {
             color: #67FFA9;
         }
         color: #76FEBA;
+        transition: .5s;
+       
     }
     #support {
         grid-area:support ;
@@ -316,4 +321,13 @@ h1.nice:after {
         color: white;
         font-size: 5.25rem;
     }
+}
+//animation
+#active:hover{
+   
+        background: linear-gradient(90deg, rgba(103,255,169,1) 0%, rgba(0,163,82,1) 100%);
+      #active * {
+          color: white !important;
+      }
+    
 }

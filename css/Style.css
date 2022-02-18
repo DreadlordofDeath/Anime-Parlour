@@ -353,6 +353,8 @@ h1.nice:after {
   -ms-grid-column: 2;
   grid-area: active;
   color: #76FEBA;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 #serverFeatures #active h1 {
@@ -399,5 +401,14 @@ h1.nice:after {
   grid-area: server;
   color: white;
   font-size: 5.25rem;
+}
+
+#active:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#67ffa9), to(#00a352));
+  background: linear-gradient(90deg, #67ffa9 0%, #00a352 100%);
+}
+
+#active:hover #active * {
+  color: white !important;
 }
 /*# sourceMappingURL=style.css.map */
