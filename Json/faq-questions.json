@@ -71,10 +71,93 @@
       },
       {
         "q": "Who do I need to contact to donate?",
-        "a": " To Donate to our server, feel free to create a #ticket in the server"
+        "a": "To Donate to our server, feel free to create a #ticket in the server"
       }
     ],
     "icon": "fa-regular fa-credit-card"
+  },
+  "Social Activities": {
+    "items": [
+      {
+        "q": "What are Squads and how do I join one?",
+        "a": "Squads are groups of people with a similar interest, they can have their own hidden channels within Anime Parlour where they can manage their own events or hang out! You can join a squad by simply sending a DM to the Squad Leader of the squad you want to be part of and ask them to add you to their squad."
+      },
+      {
+        "q": "How to create a social squad in AP?",
+        "a": "It is simple ! First, you need at least a team of 3 Members with same interests. Secondly, you need a topic on your social squad (e.g Art, Books, Senpai, Naruto, music, movie..ect). If you got those two conditions, create a ticket in ╰꒰🎫꒱server-tickets !"
+      },
+      {
+        "q": "Which Squads can be declined?",
+        "a": "Any squads that support violating our server rules or discord rules are declined - having an international squad is allowed !"
+      },
+      {
+        "q": "How to get a verified artist role?",
+        "a": "You need to post at least 10 artworks in #verified artists to get the verified role"
+      },
+      {
+        "q": "How to post a meme in #AP-memes channel?",
+        "a": "DM any staff to post a meme in #AP-memes channel"
+      },
+      {
+        "q": "What is Recruit a Friend server campaign?",
+        "a": "If your friend gets @❃『Level 10 | Rookie』°  role - you receive the @Friendliest among Friends transparent role, that will be visible on the top of your roles with other unique transparent roles! Show off your superior social skills with this amazing role or stay a loser runner up that you are, the choice is yours !"
+      },
+      {
+        "q": "What are differences between serious chat and lounge chat?",
+        "a": "Lounge chat is where everyone talk to each other and ask how their day is going or talk at any topic they want. Serious chat is where people talk about something serious like what problems the person is facing in his/her life and want some opinion about it, or if he/she is having family issues and want someone to tell them how to fix it."
+      },
+      {
+        "q": "How do I send a confession",
+        "a": "There are 2 ways, 1. Go into ︰⸝⸝🍧confessions channel and write any message and it should appear as an confession, 2.  Message Tippy#8969 and write confess 737651436220842034 [message here] and it should also appear. Note confessions are logged."
+      }
+    ],
+    "icon": "fa-regular fa-image"
+  },
+  "Support": {
+    "items": [
+      {
+        "q": "How do I report a member who is breaking Discord TOS in the server?",
+        "a": "Nitro Server Boosting is an exclusive feature for Nitro users, wherein they can work together to unlock collective perks for the server they boost, from server banners to more emoji slots, for example."
+      },
+      {
+        "q": "How do I become a staff member?",
+        "a": "You need to donate at least 5$ to get the donator role and their perks"
+      },
+      {
+        "q": "What should I do if I need help?",
+        "a": "Payment methods are Nitro Code and PayPal!"
+      },
+      {
+        "q": "Can I partner with this server? If so, how?",
+        "a": "To Donate to our server, feel free to create a #ticket in the server"
+      },
+      {
+        "q": "Who are the staff members of the server?",
+        "a": "Visit this page to know who are staff members of the server"
+      },
+      {
+        "q": "How do I report a Staff?",
+        "a": "To Donate to our server, feel free to create a #ticket in the server"
+      }
+    ],
+    "icon": "fa-regular fa-circle-question"
+  },
+  "Others": {
+    "items": [
+      {
+        "q": "Can I use my alternative accounts?",
+        "a": "Alternate accounts are not permitted in the server. Please only join with one account or we'll ban them all"
+      },
+      {
+        "q": "What is Zalgo?",
+        "a": "When text is surrounded by a bunch of markings ĺ̶̎ỉ̴̯k̸͔̍e̸̢͠ ̴̣̽t̶̪̐h̸̋̐ì̴̲s̵͙͛, it's considered zalgo, and weird fonts are included. It's not allowed to be used excessively as it causes major spam and is annoying to see within chats."
+      },
+      {
+        "q": "When is the next giveaway & how to host one?",
+        "a": "There isn't an exact time for the next giveaway, and to host a giveaway you must DM admins"
+      }
+    ],
+    "icon": "fa-regular fa-circle-check"
   }
 }
 
