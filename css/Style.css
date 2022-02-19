@@ -417,15 +417,6 @@ h1.nice:after {
 /*# sourceMappingURL=style.css.map */
 /* No CSS *//*# sourceMappingURL=style.css.map */
 
-.leaderboard {
-  width: max(60vw, 20em);
-  margin-inline: auto;
-}
-
-.leaderboard h2 {
-  color: white;
-}
-
 section.leaderboard {
   display: grid;
   grid-template-columns: max-content 1fr;
@@ -433,6 +424,8 @@ section.leaderboard {
   align-items: center;
   
   height: max-content; /* you can avoid the need for this by wrapping the `<section>` in a `<main>` */
+  width: max(60vw, 20em);
+  margin-inline: auto;
 
   color: white; /* this replaces the style for `.leaderboard h2` */
 }
