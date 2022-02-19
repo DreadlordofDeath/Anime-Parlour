@@ -450,5 +450,5 @@ section.leaderboard .accordion-button:not(.collapsed) {
 section.leaderboard .accordion-button:focus {
   z-index: 3;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(253, 13, 233, 0.25);
+  box-shadow: 0 0 0 0.1rem rgba(253, 13, 233, 0.25);
 }
