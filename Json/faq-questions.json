@@ -1,4 +1,18 @@
 {
+  "Leaderboard": {
+    "items": [
+      {
+        "q": "How can I get experience (XP) in Anime Parlour?",
+        "a": "• Being active in the general rooms will grant you Server XP. You get 10-20 XP per message, but keep in mind there's a 2 minute cooldown, meaning line-splitting or sending messages in multiple lines will not generate XP faster."
+      },
+      {
+        "q": "How do I check my XP?",
+        "a": "• To check your Server XP, go to ╭꒰🧊꒱all-bots and type .rank. (See the message above if you are unsure how Server XP works!)"
+      }
+    ],
+    "icon": "fa-regular fa-message"
+  },
+
   "Server Permission": {
     "items": [
       {
@@ -18,7 +32,7 @@
         "a": "You need to be at least level 30 to get the DJ role"
       }
     ],
-    "icon": "fa-regular fa-message"
+    "icon": "fa-regular fa-user"
   },
   "Punishment System": {
     "items": [
@@ -40,5 +54,27 @@
       }
     ],
     "icon": "fa-solid fa-shield"
+  },
+  "Booster + Donators": {
+    "items": [
+      {
+        "q": "What is nitro server boosting?",
+        "a": "Nitro Server Boosting is an exclusive feature for Nitro users, wherein they can work together to unlock collective perks for the server they boost, from server banners to more emoji slots, for example."
+      },
+      {
+        "q": "How much do I need to donate to get the donator role?",
+        "a": "You need to donate at least 5$ to get the donator role and their perks"
+      },
+      {
+        "q": "What are the payment methods?",
+        "a": "Payment methods are Nitro Code and PayPal!"
+      },
+      {
+        "q": "Who do I need to contact to donate?",
+        "a": " To Donate to our server, feel free to create a #ticket in the server"
+      }
+    ],
+    "icon": "fa-regular fa-credit-card"
   }
 }
+
