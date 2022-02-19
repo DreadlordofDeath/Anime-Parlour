@@ -1,3 +1,16 @@
+@mixin gradient($color1,$color2) {
+  background: linear-gradient(90deg,$color1 0%,$color2 100%);
+
+  opacity: 1;
+  h1 {
+    color: white !important;
+  }
+  p{
+    color: white;
+  }
+ 
+}
+
 html {
   height: 100%;
 }
@@ -328,12 +341,9 @@ h1.nice:after {
   background: url("../websitebackgrounds/1049330.jpg") no-repeat center fixed;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-  grid-template-columns: auto auto auto;
-  -ms-grid-rows: auto;
+  grid-template-columns: auto auto 50%;
   grid-template-rows: auto;
   grid-template-areas: "community active server" "events support server";
-  -ms-grid-row: 5;
   grid-area: 5.625rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -347,10 +357,13 @@ h1.nice:after {
   height: 100%;
   padding: 1rem;
   font-size: 1.875rem;
+  opacity: .7;
+  transition: .5s;
 }
 
 #serverFeatures div h1 {
   font-size: 3.125rem;
+  text-align: left;
 }
 
 #serverFeatures #active {
@@ -406,22 +419,16 @@ h1.nice:after {
   grid-area: server;
   color: white;
   font-size: 5.25rem;
+  text-align: right;
+  margin-right: 2%;
 }
 
 #active:hover {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#67ffa9),
-    to(#00a352)
-  );
-  background: linear-gradient(90deg, #67ffa9 0%, #00a352 100%);
+  @include gradient(orange,blue );
+  
 }
 
-#active:hover #active * {
-  color: white !important;
-}
+
 /*# sourceMappingURL=style.css.map */
 /* No CSS */ /*# sourceMappingURL=style.css.map */
 

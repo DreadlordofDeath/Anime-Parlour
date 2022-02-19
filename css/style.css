@@ -329,10 +329,10 @@ h1.nice:after {
   background: url("../websitebackgrounds/1049330.jpg") no-repeat center fixed;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-  grid-template-columns: auto auto auto;
+  -ms-grid-columns: auto auto 50%;
+      grid-template-columns: auto auto 50%;
   -ms-grid-rows: auto;
-  grid-template-rows: auto;
+      grid-template-rows: auto;
       grid-template-areas: "community active server" "events support server";
   -ms-grid-row: 5;
   grid-area: 5.625rem;
@@ -348,10 +348,14 @@ h1.nice:after {
   height: 100%;
   padding: 1rem;
   font-size: 1.875rem;
+  opacity: .7;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 #serverFeatures div h1 {
   font-size: 3.125rem;
+  text-align: left;
 }
 
 #serverFeatures #active {
@@ -407,15 +411,22 @@ h1.nice:after {
   grid-area: server;
   color: white;
   font-size: 5.25rem;
+  text-align: right;
+  margin-right: 2%;
 }
 
 #active:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#67ffa9), to(#00a352));
-  background: linear-gradient(90deg, #67ffa9 0%, #00a352 100%);
+  background: -webkit-gradient(linear, left top, right top, from(orange), to(blue));
+  background: linear-gradient(90deg, orange 0%, blue 100%);
+  opacity: 1;
 }
 
-#active:hover #active * {
+#active:hover h1 {
   color: white !important;
+}
+
+#active:hover p {
+  color: white;
 }
 /* No CSS */
 #faq {
