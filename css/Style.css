@@ -426,7 +426,6 @@ section.leaderboard {
   height: max-content; /* you can avoid the need for this by wrapping the `<section>` in a `<main>` */
   width: max(60vw, 20em);
   margin-inline: auto;
-
   color: white; /* this replaces the style for `.leaderboard h2` */
 }
 
@@ -436,4 +435,8 @@ section.leaderboard i {
 
 section.leaderboard .accordion {
   grid-column: span 2;
+}
+
+.accordion-body {
+  color: rgb(100, 100, 100);
 }
