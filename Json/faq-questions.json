@@ -16,11 +16,11 @@
   "Server Permission": {
     "items": [
       {
-        "q": "why can't I see the channel #Selfie?",
+        "q": "Why can't I see the channel #Selfie?",
         "a": "You need to be at least level 10 to access the selfie channel"
       },
       {
-        "q": "why can't I post attachments in general chat?",
+        "q": "Why can't I post attachments in general chat?",
         "a": "You need to be at least level 5 to post attachements in lounge chat or in other text channels"
       },
       {
@@ -121,7 +121,7 @@
       },
       {
         "q": "How do I become a staff member?",
-        "a": "You need to donate at least 5$ to get the donator role and their perks"
+        "a": "to become a staff member you need to be active in lounge and the main requirement is 2+ level or 5+, and you should have good grammar because when you will give applications the first thing they will see is your grammar and then your answer."
       },
       {
         "q": "What should I do if I need help?",
