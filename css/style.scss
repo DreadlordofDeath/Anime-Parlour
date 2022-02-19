@@ -338,8 +338,8 @@ h1.nice:after {
   padding: 2rem;
   height: 100%;
   width: 100%;
-  background: url("../websitebackgrounds/1049330.jpg") no-repeat center fixed;
-  display: -ms-grid;
+  background: url(../websitebackgrounds/1049330.jpg) no-repeat fixed;
+  background-size: 100%;
   display: grid;
   grid-template-columns: auto auto 50%;
   grid-template-rows: auto;
