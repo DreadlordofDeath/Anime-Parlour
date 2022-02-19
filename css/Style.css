@@ -425,3 +425,22 @@ h1.nice:after {
 .leaderboard h2 {
   color: white;
 }
+
+section.leaderboard {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 1em;
+  align-items: center;
+  
+  height: max-content; /* you can avoid the need for this by wrapping the `<section>` in a `<main>` */
+
+  color: white; /* this replaces the style for `.leaderboard h2` */
+}
+
+section.leaderboard i {
+  font-size: 2.5rem; /* play around with this for the size you want */
+}
+
+section.leaderboard .accordion {
+  grid-column: span 2;
+}
