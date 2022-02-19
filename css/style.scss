@@ -341,6 +341,7 @@ h1.nice:after {
   background: url(../websitebackgrounds/1049330.jpg) no-repeat fixed;
   background-size: 100%;
   display: -ms-grid;
+
   display: grid;
   grid-template-columns: auto auto 50%;
   grid-template-rows: auto;
