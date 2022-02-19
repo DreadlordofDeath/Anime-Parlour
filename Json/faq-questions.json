@@ -1,26 +1,30 @@
 {
-    "Server Permission": [
+  "Server Permission": {
+    "items": [
       {
         "q": "why can't I see the channel #Selfie?",
         "a": "You need to be at least level 10 to access the selfie channel"
       },
-      { 
+      {
         "q": "why can't I post attachments in general chat?",
         "a": "You need to be at least level 5 to post attachements in lounge chat or in other text channels"
       },
-      { 
+      {
         "q": "Which level role can bypass giveaway requirements?",
         "a": "You need to be at least level 45 to bypass giveaway requirements"
       },
-      { 
+      {
         "q": "How do I get the DJ role?",
         "a": "You need to be at least level 30 to get the DJ role"
       }
-   ],
-   "Punishment System": [
+    ],
+    "icon": "fa-regular fa-message"
+  },
+  "Punishment System": {
+    "items": [
       {
         "q": "How does punishment System work in AP?",
-        "a": "At 15th warns or at 10th mutes or 5th kick - the user should be banned for two weeks. Ban Appeal is only 1 time available Depending on the severity of the breach, staff members are at liberty to deviate from this system."
+        "a": "At 15th warns or at 10th mutes or 5th kick - the user should be banned for two weeks. Ban Appeal is only 1 time available. Depending on the severity of the breach, staff members are at liberty to deviate from this system."
       },
       {
         "q": "Do automatic warns count?",
@@ -34,5 +38,7 @@
         "q": "Why did my username get moderated? (nickname set to something else)",
         "a": "If your nickanme contains any Zalgo symbols or NSFW content, your nickname gets moderated. Ping an active moderator to request a username change"
       }
-   ]
+    ],
+    "icon": "fa-solid fa-shield"
   }
+}
