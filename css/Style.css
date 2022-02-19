@@ -422,3 +422,7 @@ h1.nice:after {
   width: max(60vw, 20em);
   margin-inline: auto;
 }
+
+.leaderboard h2 {
+  color: white;
+}
