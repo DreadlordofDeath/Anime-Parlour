@@ -440,3 +440,16 @@ section.leaderboard .accordion {
 .accordion-body {
   color: rgb(100, 100, 100);
 }
+
+section.leaderboard .accordion-button:not(.collapsed) {
+  color: #690ce4;
+  background-color: #e7f1ff;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+section.leaderboard .accordion-button:focus {
+  z-index: 3;
+  border-color: #f286fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(253, 13, 233, 0.25);
+}
