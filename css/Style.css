@@ -14,10 +14,6 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-header {
-  /* remove justify-content here */
-}
-
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,20 +39,20 @@ nav #logo:hover {
 }
 
 nav i {
-  margin-right: 5px;
+  margin-right: 0.313rem;
 }
 
 nav img {
   width: auto;
-  height: 100px;
+  height: 6.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 20px;
-  padding: 20px;
+  margin: 1.25rem;
+  padding:1.25rem;
 }
 
 /* Navbar links */
@@ -65,10 +61,10 @@ nav a {
   transition: 0.5s;
   border-radius: 20%;
   padding: 10px;
-  margin: 20px;
+  margin: 1.25rem;
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   display: inline-block;
   text-align: center;
   font-weight: bold;
@@ -92,21 +88,22 @@ nav div {
 /* Current/active navbar link */
 .active {
   background-color: #660066;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   padding: 1rem;
 }
 
 .active p {
   display: inline;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 nav p {
-  margin-top: 5px;
+  margin-top: 0.313rem;
+  margin-bottom: 0;
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 31.25rem) {
   .navbar a {
     float: none;
     display: -webkit-box;
@@ -116,7 +113,7 @@ nav p {
 }
 
 .home_text {
-  font-size: 97px;
+  font-size: 6.063rem;
   color: white;
   padding: 1.25rem;
   margin: 13% 1.25rem;
@@ -131,7 +128,7 @@ nav p {
 }
 
 .home_text i {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: white;
   display: block;
 }
@@ -144,7 +141,7 @@ nav p {
   margin: 1rem 1rem 1rem 0;
   display: block;
   border-radius: 1rem;
-  border-width: 4px;
+  border-width: 0.25rem;
 }
 
 .joinnow a {
@@ -207,7 +204,7 @@ footer div h3 {
 
 h1.nice,
 h2.nice {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-transform: uppercase;
   font-weight: 700;
   display: -webkit-box;
@@ -216,7 +213,7 @@ h2.nice {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 0 30px;
+  margin: 0 0 1.875rem;
 }
 
 h1.nice {
@@ -224,7 +221,7 @@ h1.nice {
 }
 
 .awards-pos-save {
-  margin-top: 20px !important;
+  margin-top: 1.25rem !important;
 }
 
 h1 {
@@ -242,8 +239,8 @@ h1 {
 }
 
 .fas {
-  min-width: 16px;
-  min-height: 11px;
+  min-width: 1rem;
+  min-height: 0.688rem;
 }
 
 .fa-solid,
@@ -304,7 +301,7 @@ h2.nice:after {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   opacity: 0.6;
-  margin: 3% 10px;
+  margin: 3% 0.625rem;
 }
 
 h1.nice:after {
