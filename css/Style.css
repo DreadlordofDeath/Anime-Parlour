@@ -417,7 +417,7 @@ h1.nice:after {
 /*# sourceMappingURL=style.css.map */
 /* No CSS *//*# sourceMappingURL=style.css.map */
 
-#accordionExample {
+.leaderboard {
   width: max(60vw, 20em);
   margin-inline: auto;
 }
