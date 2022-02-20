@@ -178,6 +178,12 @@ footer h2 {
 footer a {
   color: white;
   text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+footer a:hover {
+  color: #ffb9fc;
 }
 
 footer div {
