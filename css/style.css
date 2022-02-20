@@ -317,6 +317,13 @@ h1.nice:after {
 }
 
 .serverFeatures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
   padding: 2em;
   width: 100%;
   background: url(../websitebackgrounds/1049330.jpg) no-repeat fixed;
@@ -326,13 +333,17 @@ h1.nice:after {
 #serverFeatures {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  -ms-grid-columns: 35% 35% 30%;
+      grid-template-columns: 35% 35% 30%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   grid-gap: 1px;
 }
 
 .serverFeatures div {
-  padding: 2rem;
+  width: 100%;
+  padding: 0 1rem;
 }
 
 .serverFeatures div h1 {
@@ -377,8 +388,24 @@ h1.nice:after {
 }
 
 #featuretitle {
-  text-align: right;
+  width: 100%;
+  height: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column: 3;
+  grid-column: 3/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   color: white;
+  font-size: 3.688rem;
 }
 /* No CSS */
 #faq {
