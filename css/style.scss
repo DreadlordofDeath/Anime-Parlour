@@ -336,7 +336,8 @@ h1.nice:after {
 }
 #serverFeatures {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
+  grid-gap: 1px;
 }
 .serverFeatures div {
   padding: 2rem;
