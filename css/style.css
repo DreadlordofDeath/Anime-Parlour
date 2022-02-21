@@ -363,6 +363,10 @@ h1.nice:after {
   text-align: left;
 }
 
+.serverFeatures div h1 i {
+  margin-left: 2%;
+}
+
 .serverFeatures div p {
   font-size: 1.5rem;
 }
