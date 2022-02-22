@@ -342,7 +342,7 @@ h1.nice:after {
           align-items: center;
   height: 100%;
   padding: 2em;
-  width: 100%;
+  width: auto;
   background: url(../websitebackgrounds/1049330.jpg) no-repeat fixed;
   background-size: cover;
 }
