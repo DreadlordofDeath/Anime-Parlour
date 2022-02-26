@@ -117,15 +117,19 @@ nav p {
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .navbar a {
     float: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
+
   #logo {
     display: none;
+  }
+  .serverFeatures {
+    display: flex;
   }
 }
 
@@ -351,6 +355,17 @@ h1.nice:after {
 #staff {
   margin-top: 5%;
 }
+
+
+.pfp-group img {
+  border-radius: 9px;
+  height: 80px;
+  display: inline-block;
+  margin-left: 20px;
+
+}
+
+
 
 .serverFeatures {
   display: flex;
