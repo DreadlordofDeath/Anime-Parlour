@@ -4,7 +4,7 @@ class MyHeader extends HTMLElement {
         <header>
     <nav class="navbar">
       <a id="logo" href="../Home.html"><img src="../logos/logo-original-white.png" /></a>
-      <div class="navitems">
+      <div class="nav-item">
         <a class="active" href="../Home.html"><i class="fa fa-fw fa-home"></i>
           <p>Home</p>
         </a>
@@ -25,6 +25,7 @@ class MyHeader extends HTMLElement {
           <p>upvote us</p>
         </a>
         </a>
+        </div>
       </div>
     </nav>
   </header>

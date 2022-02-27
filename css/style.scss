@@ -10,6 +10,11 @@
   }
  
 }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 html {
   height: 100%;
@@ -26,6 +31,8 @@ body {
   height: 100%;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
+  position: relative;
+  background-position: center;
 }
 
 nav {
@@ -125,11 +132,36 @@ nav p {
     display: flex;
   }
 
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  html, body {overflow-x: hidden;}
+
+}
+
+@media screen and (max-width: 1250px) {
+
   #logo {
     display: none;
   }
+
+}
+
+@media only screen and (max-width: 600px) {
   .serverFeatures {
-    display: flex;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  }
+  .serverFeatures div {
+  text-align: center;
+  display:flex;
+  flex-flow:column;
+  place-items:center;
+  }
+  #featuretitle{
+    text-align:center;
   }
 }
 
@@ -319,9 +351,19 @@ h1 {
   text-rendering: auto;
 }
 
-* {
-  box-sizing: content-box;
-}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
 
 i {
   font-style: italic;
@@ -365,23 +407,18 @@ h1.nice:after {
 
 }
 
-
-
 .serverFeatures {
-  display: flex;
   align-items: center;
-  height: 100%;
   padding: 2em;
-  width: auto;
-  background: url(../websitebackgrounds/1049330.jpg) no-repeat fixed;
+  background: url("../websitebackgrounds/1049330.jpg") no-repeat fixed;
   background-size: cover;
-}
-#serverFeatures {
   display: grid;
   grid-template-columns: 35% 35% 30%;
   justify-content: start;
   grid-gap: 0.063rem;
+  
 }
+
 .serverFeatures div {
   width: 100%;
   padding: 0 1rem;
@@ -400,36 +437,35 @@ h1.nice:after {
   font-size: 1.5rem;
 }
 
-//colors of Server Features
-.serverFeatures #active {
+.serverFeatures .active-sf {
   color: #76feba;
 }
 
-.serverFeatures #active h1 {
+.serverFeatures .active-sf h1 {
   color: #67ffa9;
 }
 
-.serverFeatures #support {
+.serverFeatures .support {
   color: #dda8e1;
 }
 
-.serverFeatures #support h1 {
+.serverFeatures .support h1 {
   color: #da71ff;
 }
 
-.serverFeatures #community {
+.serverFeatures .community {
   color: #e3e5b2;
 }
 
-.serverFeatures #community h1 {
+.serverFeatures .community h1 {
   color: #FFFB8D;
 }
 
-.serverFeatures #events {
+.serverFeatures .events {
   color: #ffcccc;
 }
 
-.serverFeatures #events h1 {
+.serverFeatures .events h1 {
   color: #ff8484;
 }
 
@@ -441,9 +477,8 @@ h1.nice:after {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-color: white;
-font-size: 3.688rem;
-
+  color: white;
+  font-size: 3.688rem;
 }
 
 /*# sourceMappingURL=style.css.map */
