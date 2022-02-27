@@ -7,7 +7,11 @@
       },
       {
         "q": "How do I check my XP?",
-        "a": "• To check your Server XP, go to ╭꒰🧊꒱all-bots and type .rank. (See the message above if you are unsure how Server XP works!)"
+        "a": "• To check your Server XP, go to ╭꒰🧊꒱all-bots or ︰⸝⸝🧥maki and type .rank (See the message above if you are unsure how Server XP works!)"
+      },
+      {
+        "q": "'m unsure about my current level progress, what can i do to fully understand it?",
+        "a": "If you are checking your rank and the numbers are making you unsure about how far you are in your current level, you can do .profile to see the amount of XP you have gained and where you are until reaching the next level. (the XP is shown as a bar, instead of numbers, making it easier to see your progress)."
       }
     ],
     "icon": "fa-regular fa-message"
@@ -16,20 +20,20 @@
   "Server Permission": {
     "items": [
       {
-        "q": "why can't I see the channel #Selfie?",
-        "a": "You need to be at least level 10 to access the selfie channel"
+        "q": "Why can't I see the #Selfie channel?",
+        "a": "You need to be at least level 10 to access the selfie channel."
       },
       {
-        "q": "why can't I post attachments in general chat?",
-        "a": "You need to be at least level 5 to post attachements in lounge chat or in other text channels"
+        "q": "Why can't I post attachments in #Lounge?",
+        "a": "You need to be at least level 5 to post attachments in lounge chat or in other text channels."
       },
       {
         "q": "Which level role can bypass giveaway requirements?",
-        "a": "You need to be at least level 45 to bypass giveaway requirements"
+        "a": "You need to be at least level 45 to bypass giveaway requirements."
       },
       {
         "q": "How do I get the DJ role?",
-        "a": "You need to be at least level 30 to get the DJ role"
+        "a": "You need to be at least level 30 to get the DJ role and create a ticket to get the role"
       }
     ],
     "icon": "fa-regular fa-user"
@@ -37,33 +41,33 @@
   "Punishment System": {
     "items": [
       {
-        "q": "How does punishment System work in AP?",
+        "q": "How does the Punishment System work in AP?",
         "a": "At 15th warns or at 10th mutes or 5th kick - the user should be banned for two weeks. Ban Appeal is only 1 time available. Depending on the severity of the breach, staff members are at liberty to deviate from this system."
       },
       {
         "q": "Do automatic warns count?",
-        "a": "Nope, they don't. But if you get many automatic warns at the same time, you can be banned temporality "
+        "a": "Nope, they don't. But if you get many automatic warns at the same time, you can be banned temporarily."
       },
       {
         "q": "Why is swearing against the rules?",
-        "a": "Swearing results in toxicity and causes the server to be an unfriendly environment. We are allowing members to swear, but only in one condition: You must not use swear words to be rude towards others and that is a strict rule."
+        "a": "Swearing results in toxicity and causes the server to be an unfriendly environment. We are allowing members to swear, but only at one condition: You must not use swear words to be rude towards others and that is a strict rule."
       },
       {
         "q": "Why did my username get moderated? (nickname set to something else)",
-        "a": "If your nickanme contains any Zalgo symbols or NSFW content, your nickname gets moderated. Ping an active moderator to request a username change"
+        "a": "If your username contains any Zalgo symbols or NSFW content, your nickname gets moderated. Ping an active moderator to request a nickname change."
       }
     ],
     "icon": "fa-solid fa-shield"
   },
-  "Booster + Donators": {
+  "Boosters + Donators": {
     "items": [
       {
         "q": "What is nitro server boosting?",
-        "a": "Nitro Server Boosting is an exclusive feature for Nitro users, wherein they can work together to unlock collective perks for the server they boost, from server banners to more emoji slots, for example."
+        "a": "Nitro Server Boosting is an exclusive feature for Nitro users, where they can work together to unlock collective perks for the server they boost, from server banners to more emoji slots, for example."
       },
       {
         "q": "How much do I need to donate to get the donator role?",
-        "a": "You need to donate at least 5$ to get the donator role and their perks"
+        "a": "You need to donate at least 5$ to get the donator role and their perks."
       },
       {
         "q": "What are the payment methods?",
@@ -71,7 +75,7 @@
       },
       {
         "q": "Who do I need to contact to donate?",
-        "a": "To Donate to our server, feel free to create a #ticket in the server"
+        "a": "To donate to our server, feel free to create a #ticket in the server."
       }
     ],
     "icon": "fa-regular fa-credit-card"
@@ -80,35 +84,35 @@
     "items": [
       {
         "q": "What are Squads and how do I join one?",
-        "a": "Squads are groups of people with a similar interest, they can have their own hidden channels within Anime Parlour where they can manage their own events or hang out! You can join a squad by simply sending a DM to the Squad Leader of the squad you want to be part of and ask them to add you to their squad."
+        "a": "Squads are groups of people with similar interest, they can have their own hidden channels within Anime Parlour where they can manage their own events or hang out! You can join a squad by simply sending a DM to the Squad Leader of the squad you want to be part of and ask them to add you to their squad."
       },
       {
         "q": "How to create a social squad in AP?",
-        "a": "It is simple ! First, you need at least a team of 3 Members with same interests. Secondly, you need a topic on your social squad (e.g Art, Books, Senpai, Naruto, music, movie..ect). If you got those two conditions, create a ticket in ╰꒰🎫꒱server-tickets !"
+        "a": "It is simple ! First, you need at least a team of 3 Members with the same interests. Secondly, you need a topic on your social squad (e.g Art, Books, Senpai, Naruto, music, movie..ect). If you got those two conditions, create a ticket in ╰꒰🎫꒱server-tickets !"
       },
       {
         "q": "Which Squads can be declined?",
         "a": "Any squads that support violating our server rules or discord rules are declined - having an international squad is allowed !"
       },
       {
-        "q": "How to get a verified artist role?",
-        "a": "You need to post at least 10 artworks in #verified artists to get the verified role"
+        "q": "How to get the verified artist role?",
+        "a": "You need to post at least 10 artworks in #verified artists to get the verified role."
       },
       {
         "q": "How to post a meme in #AP-memes channel?",
-        "a": "DM any staff to post a meme in #AP-memes channel"
+        "a": "DM any staff to post a meme in #AP-memes channel."
       },
       {
         "q": "What is Recruit a Friend server campaign?",
         "a": "If your friend gets @❃『Level 10 | Rookie』°  role - you receive the @Friendliest among Friends transparent role, that will be visible on the top of your roles with other unique transparent roles! Show off your superior social skills with this amazing role or stay a loser runner up that you are, the choice is yours !"
       },
       {
-        "q": "What are differences between serious chat and lounge chat?",
-        "a": "Lounge chat is where everyone talk to each other and ask how their day is going or talk at any topic they want. Serious chat is where people talk about something serious like what problems the person is facing in his/her life and want some opinion about it, or if he/she is having family issues and want someone to tell them how to fix it."
+        "q": "What are the differences between serious chat and lounge chat?",
+        "a": "Lounge chat is where everyone talks to each other and ask how their day is going or talk about any topic they want. Serious chat is where people talk about something serious like what problems the person is facing in his/her life and want some opinion about it, or if he/she is having family issues and want someone to tell them how to fix it."
       },
       {
-        "q": "How do I send a confession",
-        "a": "There are 2 ways, 1. Go into ︰⸝⸝🍧confessions channel and write any message and it should appear as an confession, 2.  Message Tippy#8969 and write confess 737651436220842034 [message here] and it should also appear. Note confessions are logged."
+        "q": "How do I send a confession?",
+        "a": "There are 2 ways, 1. Go into ︰⸝⸝🍧confessions channel and write any message and it should appear as a confession, 2.  Message Tippy#8969 and write confess 737651436220842034 [message here] and it should also appear. Note confessions are logged."
       }
     ],
     "icon": "fa-regular fa-image"
@@ -117,7 +121,7 @@
     "items": [
       {
         "q": "How do I report a member who is breaking Discord TOS in the server?",
-        "a": "Nitro Server Boosting is an exclusive feature for Nitro users, wherein they can work together to unlock collective perks for the server they boost, from server banners to more emoji slots, for example."
+        "a": "All you need to do is use your finger to press down, hold the desired message, and hit Report. You won't have to give any reasoning or ID codes. Discord's support team declares that it does view these reports as with all the others."
       },
       {
         "q": "How do I become a staff member?",
@@ -125,11 +129,11 @@
       },
       {
         "q": "What should I do if I need help?",
-        "a": "Payment methods are Nitro Code and PayPal!"
+        "a": "Staff members will take action when necessary. If you aren’t involved in staff action, don’t get involved. DM the Staff Team if you wish to report a user for breaking the rules. Don’t bait other users into breaking the rules."
       },
       {
         "q": "Can I partner with this server? If so, how?",
-        "a": "To Donate to our server, feel free to create a #ticket in the server"
+        "a": "if you want to be with us partnered but need a ping for it, DM any Administrator+ in this server"
       },
       {
         "q": "Who are the staff members of the server?",
@@ -137,16 +141,16 @@
       },
       {
         "q": "How do I report a Staff?",
-        "a": "To Donate to our server, feel free to create a #ticket in the server"
+        "a": "Contact a community manager with a needed context and evidences"
       }
     ],
     "icon": "fa-regular fa-circle-question"
   },
-  "Others": {
+  "Other": {
     "items": [
       {
         "q": "Can I use my alternative accounts?",
-        "a": "Alternate accounts are not permitted in the server. Please only join with one account or we'll ban them all"
+        "a": "Alternate accounts are not permitted in the server. Please only join with one account or we'll ban them all. In some cases, you are allowed to join with an alternate account, but only when higher ups agree to it. (do not DM admins or below, they are not high ranked enough for this decision)"
       },
       {
         "q": "What is Zalgo?",
