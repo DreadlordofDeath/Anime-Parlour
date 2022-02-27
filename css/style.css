@@ -125,7 +125,6 @@ nav p {
 .home_text {
   font-size: 6.063rem;
   color: white;
-  padding: 1.25em;
   padding-left: 0;
   margin: 10% 1em;
 }
@@ -167,6 +166,9 @@ nav p {
 }
 
 /* Footer */
+
+
+
 footer {
   padding: 2rem;
   padding-left: 0;
