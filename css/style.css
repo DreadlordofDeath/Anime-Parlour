@@ -1,17 +1,11 @@
-html {
-  height: 100%;
-}
-
-body {
-  background: url("/websitebackgrounds/backgroundHome.jpg") no-repeat center fixed;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", sans-serif;
-  height: 100%;
-  min-height: 100vh;
-  -ms-grid-rows: auto 1fr auto;
-      grid-template-rows: auto 1fr auto;
+#burger, #closeBurger {
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 2%;
+  color: white;
+  font-size: 2rem;
+  z-index: 2;
 }
 
 nav {
@@ -24,6 +18,9 @@ nav {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  /* Navbar links */
+  /* Navbar links on mouse-over */
+  /* Current/active navbar link */
 }
 
 nav #logo {
@@ -55,7 +52,6 @@ nav img {
   padding: 20px;
 }
 
-/* Navbar links */
 nav a {
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -70,7 +66,6 @@ nav a {
   font-weight: bold;
 }
 
-/* Navbar links on mouse-over */
 nav a:hover {
   background-color: white;
   color: magenta;
@@ -85,14 +80,13 @@ nav div {
   align-items: center;
 }
 
-/* Current/active navbar link */
-.active {
+nav .active {
   background-color: #660066;
   border-radius: 50px;
   padding: 1rem;
 }
 
-.active p {
+nav p {
   display: inline;
   margin-left: 10px;
 }
@@ -102,16 +96,86 @@ nav p {
   margin-bottom: 0;
 }
 
+nav #burger {
+  color: white;
+  position: absolute;
+  top: 6%;
+  right: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  #burger {
+    display: block;
+  }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: black;
+    -webkit-transition: .3s;
+    transition: .3s;
+    z-index: 1;
+    top: 0;
+  }
+  nav #logo {
+    display: none;
+  }
+  nav div {
+    margin-top: 2%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 1%;
+  }
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  background: url("/websitebackgrounds/backgroundHome.jpg") no-repeat center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  min-height: 100vh;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+}
+
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
   .navbar a {
     float: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-}
-
+}*/
 .home_text {
   font-size: 97px;
   color: white;
@@ -172,6 +236,16 @@ footer {
   -webkit-box-flex: 0.3;
   -ms-flex: 0.3;
   flex: 0.3;
+}
+
+footer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
 }
 
 footer h2 {
@@ -485,5 +559,66 @@ h1.nice:after {
 
 #faq section .accordion-body {
   color: #646464;
+}
+
+@media screen and (max-width: 700px) {
+  .serverFeatures {
+    height: auto;
+  }
+  #serverFeatures {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  footer section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: space-around;
+        -ms-flex-align: space-around;
+            align-items: space-around;
+    width: 100%;
+  }
+  footer section div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

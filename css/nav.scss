@@ -1,0 +1,143 @@
+
+#burger,#closeBurger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    color: white;
+    font-size: 2rem;
+    z-index: 2;
+}
+
+
+nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  
+  
+   #logo {
+    padding: 0.3rem;
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+  }
+  
+   #logo:hover {
+    background-color: transparent;
+    -webkit-transform: scale(1.5) rotate(360deg);
+    transform: scale(1.5) rotate(360deg);
+  }
+  
+   i {
+    margin-right: 5px;
+  }
+  
+   img {
+    width: auto;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  /* Navbar links */
+   a {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 20%;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Navbar links on mouse-over */
+   a:hover {
+    background-color: white;
+    color: magenta;
+  }
+  
+   div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #660066;
+    border-radius: 50px;
+    padding: 1rem;
+  }
+  
+   p {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+   p {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  #burger {
+    color: white;
+    position: absolute;
+    top: 6%;
+    right: 5%;
+  }
+  
+  }
+
+  //TODO 1000px breakpoint
+
+  @media  screen and (max-width:1000px) {
+
+    #burger {
+        display: block;
+    }
+
+      nav {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          background: black;
+          transition: .3s;
+          z-index: 1;
+        top: 0;
+         
+            #logo {
+                display: none;
+            }
+          div {
+              margin-top: 2%;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: space-between;
+              gap: 1%;
+            }
+         
+      }
+      
+  }
